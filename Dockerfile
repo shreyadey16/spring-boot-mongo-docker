@@ -1,4 +1,5 @@
-FROM openjdk:8-alpine
+##FROM openjdk:8-alpine
+FROM openjdk:latest
 
 # Required for starting application up.
 RUN apk update && apk add /bin/sh
