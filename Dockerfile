@@ -1,3 +1,4 @@
+ENV container=docker
 FROM openjdk:8-alpine
 
 # Required for starting application up.
